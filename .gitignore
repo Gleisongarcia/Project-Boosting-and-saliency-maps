@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+
+# Data (do not upload datasets)
+data/*
+!data/.gitkeep
+!data/raw/
+!data/processed/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# System files
+.DS_Store
+Thumbs.db
